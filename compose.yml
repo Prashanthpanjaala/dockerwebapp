@@ -3,12 +3,12 @@ version: "3"
 services:
  database:
    container_name: devopsdb
-   image: devopsprashanth/nigga:db
+   image: devopsprashanth/projectk:db
    ports:
      - "3306:3306"
 
  application:
    container_name: appcontainer
-   image: devopsprashanth/nigga:app
+   image: devopsprashanth/projectk:app
    ports:
      - "1234:8080"
